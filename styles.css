@@ -1,147 +1,82 @@
 * {
-
     box-sizing: border-box;
-
     background-color: #001a33;
-
 }
-
-
 
 html,
-
 body {
-
     margin: 0;
-
     font-family: 'Open Sans', sans-serif;
-
     color: #fff;
-
     overflow-x: hidden;
-
 }
-
-
 
 .main {
-
     position: relative;
-
     background-size: cover;
-
     background-position: center;
-
     height: 100vh;
-
 }
-
-
 
 .container {
-
     position: absolute;
-
     top: 0;
-
     left: 0;
-
     width: 100%;
-
     height: 100%;
-
     text-align: center;
-
     padding-top: 50px;
-
 }
-
-
 
 .main h1 {
-
     font-size: 50px;
-
 }
 
-
-
 .main .message {
-
     font-size: 150px;
-
     width: 100%;
-
     position: relative;
-
 }
 
 
 
 .countdown {
-
     font-size: 50px;
-
     display: flex;
-
     justify-content: center;
-
     align-items: center;
-
     text-align: center;
-
 }
 
 
 
 .countdown div {
-
     padding: 20px;
-
     margin: 5px;
-
     opacity: 0.7;
-
 }
 
 
 
 .countdown span {
-
     display: block;
-
     font-size: 25px;
-
 }
 
 
 
 @media only screen and (max-width: 650px) {
-
     .container {
-
         padding: 0 15px 0 15px;
-
     }
-
-
 
     .countdown {
-
         font-size: 30px;
-
         flex-direction: column;
-
     }
-
 }
 
-
-
 @media only screen and (max-width: 450px) {
-
     .container .message {
-
         font-size: 100px;
-
     }
